@@ -29,7 +29,7 @@ public class RestTempleteConfig {
 
     private CredentialsProvider provider() {
         CredentialsProvider provider = new BasicCredentialsProvider();
-        UsernamePasswordCredentials credentials = new UsernamePasswordCredentials("root", "pass");
+        UsernamePasswordCredentials credentials = new UsernamePasswordCredentials("admin", "admin");
         provider.setCredentials(AuthScope.ANY, credentials);
         return provider;
     }
